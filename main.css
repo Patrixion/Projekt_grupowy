@@ -4,18 +4,18 @@ background - #0B1D26
  */
 
  @font-face {
-    font-family: "Gilroy-Bold";
-    src: url("./fonts/Gilroy-Bold.ttf") format('ttf');
+    font-family: "LibreBaskerville-Bold";
+    src: url("./fonts/LibreBaskerville-Bold.ttf") format('ttf');
 }
 
 @font-face {
-    font-family: "Gilroy-ExtraBold";
-    src: url("./fonts/Gilroy-ExtraBold.ttf") format('ttf');
+    font-family: "LibreBaskerville-Italic";
+    src: url("./fonts/LibreBaskerville-Italic.ttf") format('ttf');
 }
 
 @font-face {
-    font-family: "Gilroy-Medium";
-    src: url("./fonts/Gilroy-Medium.ttf") format('ttf');
+    font-family: "LibreBaskerville-Regular";
+    src: url("./fonts/LibreBaskerville-Regular.ttf") format('ttf');
 }
 @font-face {
     font-family: "Chronicle-Display-Bold";
@@ -35,9 +35,24 @@ background - #0B1D26
 main{
     background-color:#0B1D26 ;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-
+.main__container{
+    max-width: 700px;
+    max-height: 720px;
+}
+.main__container-paragraph{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .container__paragraph-number{
     font-size: 15rem;
-    font-family: "Gilroy-Bold";
+    font-family: "LibreBaskerville-Bold";
+
+}
+h2{
+    padding-left: 120px;
 }
