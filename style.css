@@ -9,11 +9,45 @@ background - #0B1D26
     padding: 0px;
 }
 
-body {
+html {
+    font-size: 62.5%;
+}
+
+body, button {
     font-family: 'Libre Baskerville', serif;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a, a:link, a:visited, a:hover {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.dashed-caption {
+    display: flex;
+    align-items: center;
+
+    font-weight: 800;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.dashed-caption::before {
+    content: '';
+    width: 7.2rem;
+    height: 2px;
+    margin-right: 3.2rem;
+    background: #FBD784;
+    display: inline-block;
 }

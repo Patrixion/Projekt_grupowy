@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +15,31 @@
 </head>
 
 <body>
-    <header>
-
+    <header class="header">
+        <div class="header__container">
+            <nav class="header__nav">
+                <figure class="header__logo">
+                    <img src="images/logo.svg" alt="MNTN logo">
+                </figure>
+                <ul class="header__list">
+                    <li class="header__item">Equipment</li>
+                    <li class="header__item">About us</li>
+                    <li class="header__item">Blog</li>
+                </ul>
+                <button class="header__account">
+                    <img src="images/account.png" alt="Account icon">
+                    <span>Account</span>
+                </button>
+            </nav>
+            <div class="header__title">
+                <h5 class="header__pre-title dashed-caption">A hiking guide</h5>
+                <h1 class="header__heading">Be prepared for the Mountains and beyond!</h1>
+                <a href="#" class="header__scroll">
+                    <span>scroll down</span>
+                    <img src="images/down.png" alt="Down arrow icon">
+                </a>
+            </div>
+        </div>
     </header>
     <main class="main">
         <ul class="main__list">
