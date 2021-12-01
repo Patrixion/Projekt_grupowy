@@ -19,11 +19,11 @@ background - #0B1D26
 }
 @font-face {
     font-family: "Chronicle-Display-Bold";
-    src: url("./fonts/Chronicle-Display-Bold.otf") format('ttf');
+    src: url("./fonts/Chronicle-Display-Bold.otf") format('otf');
 }
 @font-face {
     font-family: "Chronicle-Display-Semibold";
-    src: url("./fonts/Chronicle-Display-Semibold.otf") format('ttf');
+    src: url("./fonts/Chronicle-Display-Semibold.otf") format('otf');
 }
 
 * {
