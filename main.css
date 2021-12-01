@@ -3,7 +3,7 @@ gold color - #FBD784
 background - #0B1D26
  */
 
- @font-face {
+@font-face {
     font-family: "LibreBaskerville-Bold";
     src: url("./fonts/LibreBaskerville-Bold.ttf") format('ttf');
 }
@@ -17,10 +17,12 @@ background - #0B1D26
     font-family: "LibreBaskerville-Regular";
     src: url("./fonts/LibreBaskerville-Regular.ttf") format('ttf');
 }
+
 @font-face {
     font-family: "Chronicle-Display-Bold";
     src: url("./fonts/Chronicle-Display-Bold.otf") format('otf');
 }
+
 @font-face {
     font-family: "Chronicle-Display-Semibold";
     src: url("./fonts/Chronicle-Display-Semibold.otf") format('otf');
@@ -32,55 +34,23 @@ background - #0B1D26
     padding: 0px;
 }
 
-main{
-    background-color:#0B1D26 ;
+main {
+    background-color: #0B1D26;
     color: white;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: column;
     font-size: 62.5%;
-}
-.main__container{
-    max-width: 30REM;
-    max-height: 72REM;
-    flex-direction: row;
-    align-items: center;
-    align-self: center;
-}
-.container__text{
-    display: flex;
-    flex-direction:column;
-    max-height: 43.9rem;
-    max-width: 63.2rem;
-}
-.main__container-paragraph{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.container__paragraph-number{
-    font-size: 15rem;
-    font-family:'Chronicle-Display-Bold';
-}
-h2{
-    padding-left: 120px;
-}
-.main__container-image{
-    max-height: 72rem;
-    max-width: 56.6rem;
-    display: inline;
-}
-.item__count{
-
-    font-weight: 700;
-}
-.item__title{
-    font-size: 7.6REM;
 }
 .main__list {
     max-width: 1462px;
     margin: 0 auto;
     padding: 0 2rem;
+    margin-bottom: 20REM;
+}
+
+.main:last-child {
+    margin: 0;
 }
 
 .item {
@@ -89,12 +59,62 @@ h2{
 
 .item__info {
     flex-grow: 2;
-margin: auto;
+    margin: auto;
+    padding-left: 15rem;
+}
+
+.item__count {
+    font-size: 24rem;
+    font-weight: 700;
+    opacity: 10%;
+    position: absolute;
+    top: 155rem;
+}
+
+.item__subtitle {
+    margin-bottom: 27px;
+}
+.item__subtitle{
+    position: absolute;
+    top: 169rem;
+    left: 59rem;
+}
+.item__subtitle:nth-child(2){}
+    position: absolute;
+    top: 169rem;
+    left: 59rem;
+}
+
+.item__title {
+    font-size: 5rem;
+    margin-right: 12rem;
+}
+
+.item__text {
+    font-size: 1.8rem;
+    padding-top: 2.2rem;
+    padding-right: 8em;
+}
+
+.item__link {
+    font-size: 2rem;
+    background-color: #0000;
+    color: white;
+    text-align: left;
+    padding-top: 2.7rem;
 }
 
 .item__fig {
     max-width: 566px;
 }
-.item__text{
-    padding-top: 2.7rem;
+
+.img__fig {
+    max-width: none;
 }
+
+
+button {
+    text-align: left;
+    border: none;
+}
+
