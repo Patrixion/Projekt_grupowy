@@ -13,73 +13,43 @@ html {
 	font-size: 62.5%;
 }
 
-body {
+body,
+button {
 	font-family: "Libre Baskerville", serif;
 }
 
-ul {
+ul,
+ol {
 	list-style: none;
 }
 
-a {
+a,
+a:link,
+a:visited,
+a:hover {
+	color: currentColor;
+	text-decoration: none;
 	color: currentColor;
 	text-decoration: none;
 }
 
-.footer {
-	background-color: #0b1d26;
-}
-
-.footer__wrapper {
-	max-width: 1462px;
-	margin: 0 auto;
-	padding: 2rem 2rem 12rem;
+.dashed-caption {
 	display: flex;
-}
+	align-items: center;
 
-.footer__company {
-	margin-right: auto;
-	display: flex;
-	flex-direction: column;
-	max-width: 34.7rem;
-	color: #fff;
-}
-
-.footer__logo {
-	width: 10.8rem;
-	height: 3.8rem;
-	margin-bottom: 2.4rem;
-}
-
-.footer__invite {
-	font-size: 1.8rem;
-	line-height: 3.2rem;
-	margin-bottom: 12.2rem;
-}
-
-.footer__copyright {
-	font-size: 1.8rem;
-	line-height: 3.2rem;
-	opacity: 0.5;
-}
-
-.footer__list__wrapper {
-	max-width: 566px;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-}
-
-.footer__list {
-	display: flex;
-	flex-direction: column;
-	gap: 1.6rem;
-	font-size: 1.8rem;
-	line-height: 3.2rem;
-	color: #fff;
-}
-
-.footer__item--gold {
+	font-weight: 800;
+	font-size: 1.6rem;
+	line-height: 2rem;
 	color: #fbd784;
-	margin-bottom: 2.4rem;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+
+.dashed-caption::before {
+	content: "";
+	width: 7.2rem;
+	height: 2px;
+	margin-right: 3.2rem;
+	background: #fbd784;
+	display: inline-block;
 }
