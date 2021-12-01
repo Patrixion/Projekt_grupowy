@@ -31,3 +31,13 @@ background - #0B1D26
     margin: 0px;
     padding: 0px;
 }
+
+main{
+    background-color:#0B1D26 ;
+    color: white;
+}
+
+.container__paragraph-number{
+    font-size: 15rem;
+    font-family: "Gilroy-Bold";
+}
