@@ -55,12 +55,16 @@ main {
 
 .item {
     display: flex;
+    flex-direction: space-between;
+    gap: 4rem;
+    max-width: 1462px;
 }
 
 .item__info {
-    flex-grow: 2;
+    position: relative;
     margin: auto;
     padding-left: 15rem;
+    max-width: 782px;
 }
 
 .item__count {
@@ -68,44 +72,35 @@ main {
     font-weight: 700;
     opacity: 10%;
     position: absolute;
-    top: 155rem;
+    left: 0;
+    top: -103px;
 }
 
 .item__subtitle {
     margin-bottom: 27px;
 }
-.item__subtitle{
-    position: absolute;
-    top: 169rem;
-    left: 59rem;
-}
-.item__subtitle:nth-child(2){}
-    position: absolute;
-    top: 169rem;
-    left: 59rem;
-}
+
 
 .item__title {
     font-size: 5rem;
-    margin-right: 12rem;
 }
 
 .item__text {
     font-size: 1.8rem;
     padding-top: 2.2rem;
-    padding-right: 8em;
 }
 
 .item__link {
     font-size: 2rem;
     background-color: #0000;
-    color: white;
+    color: #FBD784 ;
     text-align: left;
     padding-top: 2.7rem;
 }
 
 .item__fig {
     max-width: 566px;
+
 }
 
 .img__fig {

@@ -34,7 +34,6 @@ a, a:link, a:visited, a:hover {
 .dashed-caption {
     display: flex;
     align-items: center;
-
     font-weight: 800;
     font-size: 1.6rem;
     line-height: 2rem;
