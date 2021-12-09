@@ -131,4 +131,8 @@
     .header__heading {
         font-size: 4rem;
     }
+
+    .header__item {
+        margin-right: 0;
+    }
 }
