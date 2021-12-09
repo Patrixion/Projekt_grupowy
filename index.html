@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Mountains and beyond</title>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
                     <h1 class="header__heading">
                         Be prepared for the Mountains and beyond!
                     </h1>
-                    <a href="#" class="header__scroll">
+                    <a href="#main" class="header__scroll">
                         <span>scroll down</span>
                         <img src="images/down.png" alt="Down arrow icon" />
                     </a>
@@ -52,27 +52,34 @@
                     </li>
                 </ul>
                 <ul class="header__slider">
-                    <li class="header__slider__item header__slider__item--active">
-                        Start
+                    <li class="header__slider__item header__slider__item--active"><a href="#start">
+                            Start
+                        </a>
                     </li>
                     <li class="header__slider__item">
-                        01
+                        <a href="#01">
+                            01
+                        </a>
                     </li>
                     <li class="header__slider__item">
-                        02
+                        <a href="#02">
+                            02
+                        </a>
                     </li>
                     <li class="header__slider__item">
-                        03
+                        <a href="#03">
+                            03
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
-    <main class="main">
+    <main class="main" id="start">
         <ul class="main__list">
             <li class="item">
                 <div class="item__info">
-                    <p class="item__count">01</p>
+                    <p class="item__count" id="01">01</p>
                     <p class="dashed-caption item__subtitle">GET STARTED</p>
                     <h2 class="item__title">What level of hiker are you?</h2>
                     <p class="item__text">
@@ -95,7 +102,7 @@
                     <img class="img__fig" src="./images/second_image.png" alt="Hiking image" />
                 </figure>
                 <div class="item__info">
-                    <p class="item__count">02</p>
+                    <p class="item__count" id="02">02</p>
                     <p class="dashed-caption item__subtitle">Hikking Essentials</p>
                     <h2 class="item__title">Picking the right Hiking Gear!</h2>
                     <p class="item__text">
@@ -111,7 +118,7 @@
 
             <li class="item">
                 <div class="item__info">
-                    <p class="item__count">03</p>
+                    <p class="item__count" id="03">03</p>
                     <p class="dashed-caption item__subtitle">Where you go is the key</p>
 
                     <h2 class="item__title">Understand Your Map & Timing</h2>
