@@ -3,31 +3,6 @@ gold color - #FBD784
 background - #0B1D26
  */
 
-@font-face {
-    font-family: "LibreBaskerville-Bold";
-    src: url("./fonts/LibreBaskerville-Bold.ttf") format('ttf');
-}
-
-@font-face {
-    font-family: "LibreBaskerville-Italic";
-    src: url("./fonts/LibreBaskerville-Italic.ttf") format('ttf');
-}
-
-@font-face {
-    font-family: "LibreBaskerville-Regular";
-    src: url("./fonts/LibreBaskerville-Regular.ttf") format('ttf');
-}
-
-@font-face {
-    font-family: "Chronicle-Display-Bold";
-    src: url("./fonts/Chronicle-Display-Bold.otf") format('otf');
-}
-
-@font-face {
-    font-family: "Chronicle-Display-Semibold";
-    src: url("./fonts/Chronicle-Display-Semibold.otf") format('otf');
-}
-
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -46,7 +21,7 @@ main {
     max-width: 1462px;
     margin: 0 auto;
     padding: 0 2rem;
-    margin-bottom: 20REM;
+    margin-bottom: 20rem;
 }
 
 .main:last-child {
@@ -96,6 +71,7 @@ main {
     color: #FBD784 ;
     text-align: left;
     padding-top: 2.7rem;
+    border: none;
 }
 
 .item__fig {
@@ -105,11 +81,5 @@ main {
 
 .img__fig {
     max-width: none;
-}
-
-
-button {
-    text-align: left;
-    border: none;
 }
 
