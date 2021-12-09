@@ -1,0 +1,85 @@
+/*
+gold color - #FBD784
+background - #0B1D26
+ */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: #0B1D26;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    font-size: 62.5%;
+}
+.main__list {
+    max-width: 1462px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    margin-bottom: 20rem;
+}
+
+.main:last-child {
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: space-between;
+    gap: 4rem;
+    max-width: 1462px;
+}
+
+.item__info {
+    position: relative;
+    margin: auto;
+    padding-left: 15rem;
+    max-width: 782px;
+}
+
+.item__count {
+    font-size: 24rem;
+    font-weight: 700;
+    opacity: 10%;
+    position: absolute;
+    left: 0;
+    top: -103px;
+}
+
+.item__subtitle {
+    margin-bottom: 27px;
+}
+
+
+.item__title {
+    font-size: 5rem;
+}
+
+.item__text {
+    font-size: 1.8rem;
+    padding-top: 2.2rem;
+}
+
+.item__link {
+    font-size: 2rem;
+    background-color: #0000;
+    color: #FBD784 ;
+    text-align: left;
+    padding-top: 2.7rem;
+    border: none;
+}
+
+.item__fig {
+    max-width: 566px;
+
+}
+
+.img__fig {
+    max-width: none;
+}
+

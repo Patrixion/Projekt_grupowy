@@ -7,41 +7,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="header__container">
-            <nav class="header__nav">
-                <figure class="header__logo">
-                    <img src="images/logo.svg" alt="MNTN logo">
-                </figure>
-                <ul class="header__list">
-                    <li class="header__item">Equipment</li>
-                    <li class="header__item">About us</li>
-                    <li class="header__item">Blog</li>
-                </ul>
-                <button class="header__account">
-                    <img src="images/account.png" alt="Account icon">
-                    <span>Account</span>
-                </button>
-            </nav>
-            <div class="header__title">
-                <h5 class="header__pre-title dashed-caption">A hiking guide</h5>
-                <h1 class="header__heading">Be prepared for the Mountains and beyond!</h1>
-                <a href="#" class="header__scroll">
-                    <span>scroll down</span>
-                    <img src="images/down.png" alt="Down arrow icon">
-                </a>
-            </div>
+      <div class="header__container">
+        <nav class="header__nav">
+          <figure class="header__logo">
+            <img src="images/logo.svg" alt="MNTN logo" />
+          </figure>
+          <ul class="header__list">
+            <li class="header__item">Equipment</li>
+            <li class="header__item">About us</li>
+            <li class="header__item">Blog</li>
+          </ul>
+          <button class="header__account">
+            <img src="images/account.png" alt="Account icon" />
+            <span>Account</span>
+          </button>
+        </nav>
+        <div class="header__title">
+          <h5 class="header__pre-title dashed-caption">A hiking guide</h5>
+          <h1 class="header__heading">
+            Be prepared for the Mountains and beyond!
+          </h1>
+          <a href="#" class="header__scroll">
+            <span>scroll down</span>
+            <img src="images/down.png" alt="Down arrow icon" />
+          </a>
         </div>
+      </div>
     </header>
-    <main>
+    <main class="main">
+      <ul class="main__list">
+        <li class="item">
+          <div class="item__info">
+            <p class="item__count">01</p>
+            <p class="dashed-caption item__subtitle">GET STARTED</p>
+            <h2 class="item__title">What level of hiker are you?</h2>
+            <p class="item__text">
+              Determining what level of hiker you are can be an important tool
+              when planning future hikes. This hiking level guide will help you
+              plan hikes according to different hike ratings set by various
+              websites like All Trails and Modern Hiker. What type of hiker are
+              you – novice, moderate, advanced moderate, expert, or expert
+              backpacker?
+            </p>
+            <button class="item__link">Read more &#x2192;</button>
+          </div>
+          <figure class="item__fig">
+            <img
+              class="img__fig"
+              src="./images/first_image.png"
+              alt="Hiking image"
+            />
+          </figure>
+        </li>
+
+        <li class="item">
+          <figure class="item__fig">
+            <img
+              class="img__fig"
+              src="./images/second_image.png"
+              alt="Hiking image"
+            />
+          </figure>
+          <div class="item__info">
+            <p class="item__count">02</p>
+            <p class="dashed-caption item__subtitle">Hikking Essentials</p>
+            <h2 class="item__title">Picking the right Hiking Gear!</h2>
+            <p class="item__text">
+              The nice thing about beginning hiking is that you don’t really
+              need any special gear, you can probably get away with things you
+              already have. Let’s start with clothing. A typical mistake hiking
+              beginners make is wearing jeans and regular clothes, which will
+              get heavy and chafe wif they get sweaty or wet.
+            </p>
+            <button class="item__link">Read more &#x2192;</button>
+          </div>
+        </li>
+
+        <li class="item">
+          <div class="item__info">
+            <p class="item__count">03</p>
+            <p class="dashed-caption item__subtitle">Where you go is the key</p>
+
+            <h2 class="item__title">Understand Your Map & Timing</h2>
+            <p class="item__text">
+              To start, print out the hiking guide and map. If it’s raining,
+              throw them in a Zip-Lock bag. Read over the guide, study the map,
+              and have a good idea of what to expect. I like to know what my
+              next landmark is as I hike. For example, I’ll read the guide and
+              know that say, in a mile, I make a right turn at the junction..
+            </p>
+            <button class="item__link">Read more &#x2192;</button>
+          </div>
+          <figure class="item__fig">
+            <img
+              class="img__fig"
+              src="./images/third_image.png"
+              alt="Hiking image"
+            />
+          </figure>
+        </li>
+      </ul>
     </main>
     <footer class="footer">
         <div class="footer__wrapper">
