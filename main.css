@@ -101,6 +101,7 @@ main {
         top: -60px;
     }
 }
+
 @media (max-width: 1024px) {
     
     .item__title {
@@ -124,6 +125,7 @@ main {
         padding-left: 2rem;
     }
 }
+
 @media (max-width: 360px) {
     .item__info {
         padding-left: 1rem;
@@ -137,6 +139,7 @@ main {
         margin-bottom: 10rem;
     }
 }
+
 @media (max-width: 260px) {
     .item__info {
         padding-left: 0.1rem;
