@@ -21,7 +21,8 @@ main {
     max-width: 1462px;
     margin: 0 auto;
     padding: 0 2rem;
-    margin-bottom: 20rem;
+
+
 }
 
 .main:last-child {
@@ -33,6 +34,7 @@ main {
     flex-direction: space-between;
     gap: 4rem;
     max-width: 1462px;
+    padding-bottom: 20rem;
 }
 
 .item__info {
